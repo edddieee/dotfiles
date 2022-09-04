@@ -10,6 +10,7 @@
 - [neovim](https://neovim.io)
 - [zsh](https://ohmyz.sh/)
 - [tmux](https://github.com/tmux/tmux/wiki)
+- [fzf](https://github.com/junegunn/fzf)
 - [catppuccin](https://github.com/catppuccin/catppuccin)
 
 ## Setup

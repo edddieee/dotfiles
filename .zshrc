@@ -101,3 +101,5 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 alias vim=/usr/bin/nvim
+source /usr/share/fzf/key-bindings.zsh
+source /usr/share/fzf/completion.zsh
