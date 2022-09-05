@@ -7,6 +7,10 @@ keymap("", "<Space>", "<Nop>", options)
 vim.g.mapleader = " "
 vim.g.maplocalleader = " "
 
+-- Buffers
+keymap("n", "<leader>bd", ":bdelete<cr>", options)
+keymap("n", "<leader>bn", ":enew<cr>", options)
+
 -- fzf
 keymap("n", "<leader>ff", ":Files<CR>", options)
 keymap("n", "<leader>fs", ":Rg<CR>", options)
