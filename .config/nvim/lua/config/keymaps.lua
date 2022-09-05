@@ -26,3 +26,7 @@ keymap("n", "<leader>6", ":BufferLineGoToBuffer 6<CR>", options)
 keymap("n", "<leader>7", ":BufferLineGoToBuffer 7<CR>", options)
 keymap("n", "<leader>8", ":BufferLineGoToBuffer 8<CR>", options)
 keymap("n", "<leader>9", ":BufferLineGoToBuffer 9<CR>", options)
+
+-- hop
+keymap("n", "<leader>ss", ":HopWord<CR>", options)
+keymap("n", "<leader>sl", ":HopLine<CR>", options)

@@ -54,4 +54,11 @@ return require('packer').startup(function(use)
   | @link (https://github.com/tpope/vim-surround)
   --]]
   use "tpope/vim-surround"
+
+  --[[
+  | @name (hop)
+  | @desc (Neovim motions on speed!)
+  | @link (https://github.com/phaazon/hop.nvim)
+  --]]
+  use { "phaazon/hop.nvim", branch = "v2" }
 end)
