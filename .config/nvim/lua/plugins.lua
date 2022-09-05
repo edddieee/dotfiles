@@ -19,4 +19,11 @@ return require('packer').startup(function(use)
   | @link (https://github.com/arcticicestudio/nord-vim)
   --]]
   use { "catppuccin/nvim", as = "catppuccin" }
+
+  --[[
+  | @name (bufferline)
+  | @desc (Soothing pastel theme for NeoVim)
+  | @link (https://github.com/akinsho/bufferline.nvim#requirements)
+  --]]
+  use {'akinsho/bufferline.nvim', tag = "v2.*", requires = 'kyazdani42/nvim-web-devicons'}
 end)

@@ -1,5 +1,7 @@
 -- Nvim plugins and modules
 require("plugins")
+require("config.bufferline")
+require("config.theme")
 
 -- Nvim options
 -- type :help <options> to get more information
