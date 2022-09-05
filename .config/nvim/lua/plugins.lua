@@ -1,9 +1,4 @@
--- This file can be loaded by calling `lua require('plugins')` from your init.vim
-
--- Only required if you have packer configured as `opt`
--- vim.cmd [[packadd packer.nvim]]
-
-return require('packer').startup(function(use)
+return require("packer").startup(function(use)
   use "wbthomason/packer.nvim"
 
   --[[
@@ -25,7 +20,7 @@ return require('packer').startup(function(use)
   | @desc (Soothing pastel theme for NeoVim)
   | @link (https://github.com/akinsho/bufferline.nvim#requirements)
   --]]
-  use {'akinsho/bufferline.nvim', tag = "v2.*", requires = 'kyazdani42/nvim-web-devicons'}
+  use { "akinsho/bufferline.nvim", tag = "v2.*", requires = "kyazdani42/nvim-web-devicons" }
 
   --[[
   | @name (editorconfig-vim)
