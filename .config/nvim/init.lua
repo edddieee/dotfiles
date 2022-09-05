@@ -2,6 +2,7 @@
 require("plugins")
 require("config.bufferline")
 require("config.theme")
+require("config.gitsigns")
 require("config.keymaps")
 
 -- Nvim options

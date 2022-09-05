@@ -33,4 +33,11 @@ return require('packer').startup(function(use)
   | @link (https://github.com/akinsho/bufferline.nvim#requirements)
   --]]
   use "editorconfig/editorconfig-vim"
+
+  --[[
+  | @name (gitsigns)
+  | @desc (Git integration for buffers)
+  | @link (https://github.com/lewis6991/gitsigns.nvim)
+  --]]
+  use "lewis6991/gitsigns.nvim"
 end)
