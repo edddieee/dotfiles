@@ -26,4 +26,11 @@ return require('packer').startup(function(use)
   | @link (https://github.com/akinsho/bufferline.nvim#requirements)
   --]]
   use {'akinsho/bufferline.nvim', tag = "v2.*", requires = 'kyazdani42/nvim-web-devicons'}
+
+  --[[
+  | @name (editorconfig-vim)
+  | @desc (EditorConfig plugin for Vim)
+  | @link (https://github.com/akinsho/bufferline.nvim#requirements)
+  --]]
+  use "editorconfig/editorconfig-vim"
 end)
