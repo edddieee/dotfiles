@@ -47,4 +47,11 @@ return require('packer').startup(function(use)
   | @link (https://github.com/lewis6991/gitsigns.nvim)
   --]]
   use "windwp/nvim-autopairs" 
+
+  --[[
+  | @name (vim-surround)
+  | @desc (surround.vim: Delete/change/add parentheses/quotes/XML-tags/much more with ease)
+  | @link (https://github.com/tpope/vim-surround)
+  --]]
+  use "tpope/vim-surround"
 end)
