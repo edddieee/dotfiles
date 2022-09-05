@@ -50,3 +50,4 @@ stow .
 - [spotifyd](https://wiki.archlinux.org/title/spotify)
 - [editorconfig-core-c](https://archlinux.org/packages/extra/x86_64/editorconfig-core-c/)
 - [spotify-tui](https://wiki.archlinux.org/title/spotify)
+- [ripgrep](https://github.com/BurntSushi/ripgrep#installation)

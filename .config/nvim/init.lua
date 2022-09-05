@@ -1,3 +1,6 @@
+-- Nvim plugins and modules
+require("plugins")
+
 -- Nvim options
 -- type :help <options> to get more information
 -- or visit https://neovim.io/doc/user/options.html
@@ -6,12 +9,13 @@ vim.opt.clipboard = "unnamedplus"
 vim.opt.cursorline = true
 vim.opt.expandtab = true
 vim.opt.fileencoding = "utf-8"
-vim.opt.guifont = "firacode:h16"
+vim.opt.guifont = "FiraCode Nerd Font Mono:h16"
 vim.opt.ignorecase = true
 vim.opt.mouse = "a"
 vim.opt.number = true
 vim.opt.pumheight = 10
 vim.opt.relativenumber = true
+vim.opt.showtabline = 2
 vim.opt.smartcase = true
 vim.opt.smartindent = true
 vim.opt.swapfile = false
