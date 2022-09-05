@@ -6,3 +6,8 @@ local keymap = vim.api.nvim_set_keymap
 keymap("", "<Space>", "<Nop>", options)
 vim.g.mapleader = " "
 vim.g.maplocalleader = " "
+
+-- fzf
+keymap("n", "<leader>ff", ":Files<CR>", options)
+keymap("n", "<leader>fs", ":Rg<CR>", options)
+keymap("n", "<leader>fh", ":History<CR>", options)
