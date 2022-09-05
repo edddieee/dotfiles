@@ -40,4 +40,11 @@ return require('packer').startup(function(use)
   | @link (https://github.com/lewis6991/gitsigns.nvim)
   --]]
   use "lewis6991/gitsigns.nvim"
+
+  --[[
+  | @name (nvim-autopairs)
+  | @desc (autopairs for neovim written by lua)
+  | @link (https://github.com/lewis6991/gitsigns.nvim)
+  --]]
+  use "windwp/nvim-autopairs" 
 end)
