@@ -12,4 +12,11 @@ return require('packer').startup(function(use)
   | @link (https://github.com/junegunn/fzf)
   --]]
   use "junegunn/fzf.vim"
+
+  --[[
+  | @name (catppuccin)
+  | @desc (Soothing pastel theme for NeoVim)
+  | @link (https://github.com/arcticicestudio/nord-vim)
+  --]]
+  use { "catppuccin/nvim", as = "catppuccin" }
 end)
