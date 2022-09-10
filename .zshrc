@@ -76,6 +76,8 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
+export FZF_DEFAULT_COMMAND="rg --files --follow --no-ignore-vcs --hidden -g '!{**/node_modules/*,**/.git/*}'"
+
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
