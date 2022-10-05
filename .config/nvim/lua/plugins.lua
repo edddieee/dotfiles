@@ -41,7 +41,7 @@ return require("packer").startup(function(use)
   | @desc (autopairs for neovim written by lua)
   | @link (https://github.com/lewis6991/gitsigns.nvim)
   --]]
-  use "windwp/nvim-autopairs" 
+  use "windwp/nvim-autopairs"
 
   --[[
   | @name (vim-surround)
@@ -56,4 +56,11 @@ return require("packer").startup(function(use)
   | @link (https://github.com/phaazon/hop.nvim)
   --]]
   use { "phaazon/hop.nvim", branch = "v2" }
+
+  --[[
+  | @name (vim-eunuch)
+  | @desc (eunuch.vim: Helpers for UNIX)
+  | @link (https://github.com/tpope/vim-eunuch)
+  --]]
+  use { "tpope/vim-eunuch" }
 end)
