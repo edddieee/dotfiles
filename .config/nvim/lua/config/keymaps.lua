@@ -30,3 +30,6 @@ keymap("n", "<leader>9", ":BufferLineGoToBuffer 9<CR>", options)
 -- hop
 keymap("n", "<leader>ss", ":HopWord<CR>", options)
 keymap("n", "<leader>sl", ":HopLine<CR>", options)
+
+-- netrw
+keymap("n", "<leader>nt", ":Vexplore<CR>", options)

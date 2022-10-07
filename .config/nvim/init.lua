@@ -30,3 +30,7 @@ vim.opt.signcolumn = "yes"
 vim.opt.tabstop = 2
 vim.opt.termguicolors = true
 vim.opt.undofile = true
+
+vim.g.netrw_liststyle = 3
+vim.g.netrw_banner = 0
+vim.g.netrw_browse_split = 4
