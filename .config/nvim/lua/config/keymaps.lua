@@ -33,3 +33,11 @@ keymap("n", "<leader>sl", ":HopLine<CR>", options)
 
 -- netrw
 keymap("n", "<leader>nt", ":Vexplore<CR>", options)
+
+-- Use Shift + {<,>} to change the indentation level of a selected block
+keymap("v", "<", "<gv", options)
+keymap("v", ">", ">gv", options)
+
+-- Use Shift + {k,j} to move a block up or down
+keymap("x", "J", ":move '>+1<CR>gv-gv", options)
+keymap("x", "K", ":move '<-2<CR>gv-gv", options)
