@@ -41,3 +41,6 @@ keymap("v", ">", ">gv", options)
 -- Use Shift + {k,j} to move a block up or down
 keymap("x", "J", ":move '>+1<CR>gv-gv", options)
 keymap("x", "K", ":move '<-2<CR>gv-gv", options)
+
+-- Avoid current line to be copied to clipboard after paste in Visual Mode
+keymap("v", "p", '"_dP', options)
