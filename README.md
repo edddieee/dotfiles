@@ -35,9 +35,8 @@ stow .
 ## Extras
 
 - [fzf](https://wiki.archlinux.org/title/fzf)
-- [pulseaudio](https://wiki.archlinux.org/title/PulseAudio)
-  - pavucontrol
 - [ttf-fira-code](https://github.com/tonsky/FiraCode)
+- [ttf-nerd-fonts-symbols](https://archlinux.org/packages/community/any/ttf-nerd-fonts-symbols/)
 - [thunar](https://wiki.archlinux.org/title/thunar)
 - [papirus-icon-theme](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme)
 - [lxappearance-gtk3](https://wiki.archlinux.org/title/GTK)
@@ -47,7 +46,5 @@ stow .
 - [rofi](https://wiki.archlinux.org/title/rofi)
 - [noto-fonts-cjk](https://archlinux.org/packages/extra/any/noto-fonts-cjk/)
 - [noto-fonts-emoji](https://archlinux.org/packages/extra/any/noto-fonts-emoji/)
-- [spotifyd](https://wiki.archlinux.org/title/spotify)
 - [editorconfig-core-c](https://archlinux.org/packages/extra/x86_64/editorconfig-core-c/)
-- [spotify-tui](https://wiki.archlinux.org/title/spotify)
 - [ripgrep](https://github.com/BurntSushi/ripgrep#installation)
